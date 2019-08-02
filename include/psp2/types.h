@@ -62,8 +62,8 @@ typedef uint32_t SceWChar32;
 typedef void SceVoid;
 typedef void *ScePVoid;
 
-typedef int SceIntPtr;
-typedef unsigned int SceUIntPtr;
+typedef int *SceIntPtr;/*? pointer*/
+typedef unsigned int *SceUIntPtr;/*? pointer*/
 typedef SceUIntPtr SceUIntVAddr;
 
 /* PSP2 Specific types */
